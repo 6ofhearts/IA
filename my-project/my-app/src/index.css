@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App{
+  margin: 0;
+  background: pink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  color: dodgerblue;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px ;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.list{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 80vh;
+  overflow: auto;
+}
+
+.taskView{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: #8959A8 solid 2px;
+  margin-bottom: 5px;
+  padding:10px;
+}
+
+.flex-row{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+button{
+  font-size: 16px;
+  margin-left: 5px;
+  padding: 4px;
+}
+
+.mx-90{
+  width: 90%;
+}
+
+.mb-10px{
+  margin-bottom: 10px;
+}
